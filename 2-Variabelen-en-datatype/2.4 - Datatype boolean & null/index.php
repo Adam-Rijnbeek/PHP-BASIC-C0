@@ -3,10 +3,8 @@
 <body>
 
 <?php
-$test = true;
-echo " " . $test . "<br>";
-$test = null;
-echo " " . $test . "<br>";
+$voornaam = "Tom";
+echo gettype($voornaam);
 ?>
 
 </body>

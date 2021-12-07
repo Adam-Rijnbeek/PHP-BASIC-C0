@@ -4,9 +4,9 @@
 
     
 <?php
-    $voornaam = "Adam";
-    $leeftijd = 16;
-    echo "Jouw naam is " . $voornaam . " en je bent " . $leeftijd . " jaar oud.";
+echo $item = "<li>item 1</li>";
+echo $item = "<li>item 2</li>";
+echo $item = "<li>item 3</li>";
 ?>
 
 </body>

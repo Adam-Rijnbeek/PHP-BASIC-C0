@@ -4,8 +4,12 @@
 
     
 <?php
-$voornaam = "Adam";
-var_dump($voornaam);
+$Movies= ["Spiderman", "Batman", "The Joker"];
+echo $Movies[0];
+echo "<br>";
+echo $Movies[1];
+echo "<br>";
+echo $Movies[2];
 
 ?>
 

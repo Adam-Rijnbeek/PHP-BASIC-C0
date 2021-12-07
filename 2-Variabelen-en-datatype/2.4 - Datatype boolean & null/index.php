@@ -3,20 +3,9 @@
 <body>
 
 <?php
-$c = "Hello";
-echo gettype($c) . "<br>";
-
-$a = 3;
-echo gettype($a) . "<br>";
-
-$b = 3.2;
-echo gettype($b) . "<br>";
-
-$g = false;
-echo gettype($g) . "<br>";
-
-$f = null;
-echo gettype($f) . "<br>";
+$voornaam = "Adam";
+$leeftijd = 16;
+echo "Jouw naam is $voornaam en je bent $leeftijd jaar oud.";
 ?>
 
 </body>

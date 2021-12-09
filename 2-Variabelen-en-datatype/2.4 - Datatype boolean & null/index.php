@@ -4,16 +4,12 @@
 
     
 <?php
-$myHeroes =  ['Spiderman', 'Thor', 'Iron man'];
-echo $myHeroes[0] = 'Spiderman';
+$abcGetallen = [ ["a","b","c","d"], [24,56,78,90] ];
+echo $abcGetallen[0][0];
+echo $abcGetallen[1][1];
 echo "<br>";
-echo $myHeroes[1] = 'Thor';
-echo "<br>";
-echo $myHeroes[2] = 'Iron man';
-array_push($myHeroes, 'Hulk' );
-print_r($myHeroes);
-
-
+echo $abcGetallen[0][2];
+echo $abcGetallen[1][3];
 
 ?>
 

@@ -4,12 +4,13 @@
 
     
 <?php
-$abcGetallen = [ ["a","b","c","d"], [24,56,78,90] ];
-echo $abcGetallen[0][0];
-echo $abcGetallen[1][1];
-echo "<br>";
-echo $abcGetallen[0][2];
-echo $abcGetallen[1][3];
+$coders = [676,5345,78657,3,46,21,47];
+asort ($coders);
+print_r ($coders);
+
+$laag_hoog = [3,21,46,47,676,5345,78657];
+asort ($laag_hoog);
+print_r ($laag_hoog);
 
 ?>
 

@@ -4,12 +4,16 @@
 
     
 <?php
-$myDogNames =  ['Wippie', 'mickey', 'mats'];
-echo $myDogNames[0] =  'Wippie';
+$myHeroes =  ['Spiderman', 'Thor', 'Iron man'];
+echo $myHeroes[0] = 'Spiderman';
 echo "<br>";
-echo $myDogNames[1] =  'mickey';
+echo $myHeroes[1] = 'Thor';
 echo "<br>";
-echo $myDogNames[2] =  'mats';
+echo $myHeroes[2] = 'Iron man';
+array_push($myHeroes, 'Hulk' );
+print_r($myHeroes);
+
+
 
 ?>
 

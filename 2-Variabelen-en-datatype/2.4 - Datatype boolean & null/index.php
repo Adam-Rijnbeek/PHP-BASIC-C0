@@ -4,13 +4,21 @@
 
     
 <?php
-$getal1 = 5;
-$getal2 = 27;
-echo $getal1 + $getal2;
+$getal1 = 10;
+$getal2 = 19;
+echo $getal1 + $getal2; 
 echo "<br>";
-$getal3 = 3;
-$getal4 = 4;
+$getal3 = 5;
+$getal4 = 5;
 echo $getal3 * $getal4;
+echo "<br>";
+$getal5 = 20;
+$getal6 = 8;
+echo $getal5 - $getal6;
+echo "<br>";
+$getal7 = 15;
+$getal8 = 3;
+echo $getal7 / $getal8;
 ?>
 
 </body>

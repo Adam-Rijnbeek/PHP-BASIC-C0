@@ -4,10 +4,25 @@
 
     
 <?php
-$getal = 69;
-echo $getal++;
+$test1 = 12;
+$test2 = "gewoon tekst";
+var_dump($test1 == $test2);
 echo "<br>";
-echo $getal--;
+var_dump($test1 === $test2);
+echo "<br>";
+var_dump($test1 != $test2);
+echo "<br>";
+var_dump($test1 > $test2);
+echo "<br>";
+var_dump($test1 < $test2);
+echo "<br>";
+var_dump($test1 <> $test2);
+echo "<br>";
+var_dump($test1 >= $test2);
+echo "<br>";
+var_dump($test1 <= $test2);
+
+
 ?>
 
 </body>

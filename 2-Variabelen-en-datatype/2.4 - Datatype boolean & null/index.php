@@ -4,12 +4,12 @@
 
     
 <?php
-$Movies= ["Spiderman", "Batman", "The Joker"];
-echo $Movies[0];
+$myDogNames =  ['Wippie', 'mickey', 'mats'];
+echo $myDogNames[0] =  'Wippie';
 echo "<br>";
-echo $Movies[1];
+echo $myDogNames[1] =  'mickey';
 echo "<br>";
-echo $Movies[2];
+echo $myDogNames[2] =  'mats';
 
 ?>
 

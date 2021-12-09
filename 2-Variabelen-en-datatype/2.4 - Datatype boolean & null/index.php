@@ -4,14 +4,13 @@
 
     
 <?php
-$coders = [676,5345,78657,3,46,21,47];
-asort ($coders);
-print_r ($coders);
-
-$laag_hoog = [3,21,46,47,676,5345,78657];
-asort ($laag_hoog);
-print_r ($laag_hoog);
-
+$getal1 = 5;
+$getal2 = 27;
+echo $getal1 + $getal2;
+echo "<br>";
+$getal3 = 3;
+$getal4 = 4;
+echo $getal3 * $getal4;
 ?>
 
 </body>

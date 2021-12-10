@@ -4,29 +4,19 @@
 
     
 <?php
-$test1 = 3;
-$test2 = 6;
+$prod_besteld =25;
 
-if($test1 == $test2);
-echo "gelijk";
-echo "<br>";
-if($test1 == $test2);
-echo "false";
-echo "<br>";
-if($test1 == $test2);
-echo "true";
-echo "<br>";
-if($test1 == $test2);
-echo "false";
-echo "<br>";
-if($test1 == $test2);
-echo "true";
-echo "<br>";
-if($test1 == $test2);
-echo "false";
-echo "<br>";
-if($test1 == $test2);
-echo "true";
+if($prod_besteld <10){
+    echo $prijs = 1.50;
+}
+
+else if($prod_besteld<20){
+    echo $prijs = 1.25;
+}
+
+else{
+    echo $prijs = 1.00;
+} 
 
 
 

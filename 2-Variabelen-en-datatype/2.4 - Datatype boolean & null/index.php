@@ -4,14 +4,13 @@
 
     
 <?php
-function telAllewoorden(){
-    $mooieAuto = "Mijn blauwe auto is een mooie snelle wagen";
-    $lengteString = strlen($mooieAuto);
-    echo $lengteString;
-    
-    
+function geefTienProcent(){
+    $koopPrijs = 75;
+    $korting = 10;
+    $kortingEuro = ($koopPrijs / 100) * $korting;
+    return $koopPrijs - $kortingEuro;
 }
-telAllewoorden();
+echo geefTienProcent();
 
 
 

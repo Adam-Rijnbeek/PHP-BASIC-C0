@@ -4,11 +4,14 @@
 
     
 <?php
-$voornaam = "Adam";
-$achternaam = "Rijnbeek";
-$geheleNaam = $voornaam. " " .$achternaam;
-$geheleNaam = strtoupper("Mijn naam is $geheleNaam");
-echo $geheleNaam;
+function telAllewoorden(){
+    $mooieAuto = "Mijn blauwe auto is een mooie snelle wagen";
+    $lengteString = strlen($mooieAuto);
+    echo $lengteString;
+    
+    
+}
+telAllewoorden();
 
 
 

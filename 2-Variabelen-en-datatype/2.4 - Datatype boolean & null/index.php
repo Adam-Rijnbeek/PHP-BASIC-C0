@@ -4,19 +4,24 @@
 
     
 <?php
-$prod_besteld =25;
+$score = 0;
 
-if($prod_besteld <10){
-    echo $prijs = 1.50;
+switch($score){
+    case 10:
+    echo "Wow wat een fantastische score!";
+    break;
+    case 8:
+    echo "Wow bijna alle punten nog 1 te gaan!";
+    break;
+    case 6:
+    echo "Goed bezig, bijna alle punten!";
+    break;
+    case 4:
+    echo "Ga zo door!";
+    break;
+    default: 
+    echo "Nog even oefenen dan haal je vast alle punten!";
 }
-
-else if($prod_besteld<20){
-    echo $prijs = 1.25;
-}
-
-else{
-    echo $prijs = 1.00;
-} 
 
 
 

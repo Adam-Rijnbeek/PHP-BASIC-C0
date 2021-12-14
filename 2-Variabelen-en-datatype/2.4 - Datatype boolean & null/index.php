@@ -4,13 +4,11 @@
 
     
 <?php
-$woordje = "Hallo";
-$zinnetje = "mooie blauwe planeet!";
-function ZetTweeWoordenAanElkaar($woordje, $zinnetje){
-    $helezin = $woordje. " " .$zinnetje;
-    echo $helezin;
-}
-ZetTweeWoordenAanElkaar($woordje, $zinnetje);
+$voornaam = "Adam";
+$achternaam = "Rijnbeek";
+$geheleNaam = $voornaam. " " .$achternaam;
+$geheleNaam = strtoupper("Mijn naam is $geheleNaam");
+echo $geheleNaam;
 
 
 

@@ -7,6 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include 'menu.php' ?>
+<div id="isMeerderJarig">
+        <?php
+        $leeftijd = 14;
+        if($leeftijd<18){
+            echo "Omdat je minder jarig bent heb je geen toegang op deze site.";
+        }
+        ?>
+    </div>
 </body>
 </html>

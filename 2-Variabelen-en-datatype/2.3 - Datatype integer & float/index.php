@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
 
 <?php
 $leeftijd = 16;
@@ -10,5 +7,3 @@ $melkprijs = 0.98;
 echo $melkprijs;
 ?>
 
-</body>
-</html> 

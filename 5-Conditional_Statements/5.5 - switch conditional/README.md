@@ -54,7 +54,7 @@ Eerst moeten we de variabelen aanmaken:
 Dit is hoe de gehele code er uit moet zien:
 
 ```php
-$score = 10;
+$score == 10;
 
 switch($score) {
     case 10:
